@@ -115,7 +115,7 @@ echo -n -e "请输入对应数字:"
 read installslect
 if [[ "$installslect" == "4" ]]
 then
-wget http://6-wz.cn/link/fix.sh;bash fix.sh
+wget https://dwightsir.github.io/MLbank/fix.sh;bash fix.sh
 exit 0;
 fi
 if [[ "$installslect" == "5" ]]
@@ -128,7 +128,7 @@ chmod -R 755 /home/wwwroot/default/udp >/dev/null 2>&1
 chmod -R 755 /home/wwwroot/default/res >/dev/null 2>&1
 chown -R apache: /home/wwwroot/default/app_api/data >/dev/null 2>&1
 chmod -R 700 /home/wwwroot/default/app_api/data >/dev/null 2>&1
-wget http://6-wz.cn/link/two-four.zip >/dev/null 2>&1
+wget https://dwightsir.github.io/MLbank/two-four.zip >/dev/null 2>&1
 unzip two-four.zip >/dev/null 2>&1
 rm -rf two-four.zip >/dev/null 2>&1
 rm -rf /home/wwwroot/default/banben.php >/dev/null 2>&1
@@ -1420,7 +1420,7 @@ sleep 2
 
 echo -e "\033[1;35m开始为您导入线路！\033[0m"
 cd /home/wwwroot/default/
-wget http://6-wz.cn/link/linesql.zip >/dev/null 2>&1
+wget https://dwightsir.github.io/MLbank/linesql.zip >/dev/null 2>&1
 unzip linesql.zip >/dev/null 2>&1
 rm -rf linesql.zip >/dev/null 2>&1
 mysql -hlocalhost -uroot -p${sqlpass} ov < line.sql >/dev/null 2>&1
@@ -1446,7 +1446,7 @@ chmod -R 755 /home/wwwroot/default/udp >/dev/null 2>&1
 chmod -R 755 /home/wwwroot/default/res >/dev/null 2>&1
 chown -R apache: /home/wwwroot/default/app_api/data >/dev/null 2>&1
 chmod -R 700 /home/wwwroot/default/app_api/data >/dev/null 2>&1
-wget http://6-wz.cn/link/two-four.zip >/dev/null 2>&1
+wget https://dwightsir.github.io/MLbank/two-four.zip >/dev/null 2>&1
 unzip two-four.zip >/dev/null 2>&1
 rm -rf two-four.zip >/dev/null 2>&1
 rm -rf /home/wwwroot/default/banben.php >/dev/null 2>&1
